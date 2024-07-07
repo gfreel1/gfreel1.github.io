@@ -4,6 +4,10 @@ font-family: Arial, Helvetica, sans-serif;
 margin: 5% 10%;
 }
 
+#pmain {
+  text-decoration: underline;
+}
+
 h1 {
     color: orange;
     background-color: rgba(0, 0, 0, 0.654);
