@@ -2114,7 +2114,9 @@ input, select, textarea {
 
 			.image.featured img {
 				display: block;
-				width: 100%;
+				width: 50%;
+				margin-left: auto;
+				margin-right: auto;
 			}
 
 /* Icon */
@@ -2687,7 +2689,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/10.jpg");
 		background-position: center center;
 		background-size: cover;
 		height: 28em;
@@ -2697,7 +2699,7 @@ input, select, textarea {
 
 		#banner header {
 			position: absolute;
-			bottom: 50%;
+			bottom: 35%;
 			left: 0;
 			width: 100%;
 			background: #212121;
@@ -2737,11 +2739,11 @@ input, select, textarea {
 	}
 
 		.wrapper.style1 {
-			background: #fff;
+			background: #333;
 		}
 
 		.wrapper.style2 {
-			background-color: #fff;
+			background-color: #333;
 			background-image: url("images/bg02.png"), url("images/bg03.png"), url("images/bg01.png");
 			background-position: top left,						bottom left,					top left;
 			background-size: 100% 6em,						100% 6em,						auto;
@@ -2749,7 +2751,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #37c0fb;
+			background-color: #333;
 			background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
@@ -2788,6 +2790,11 @@ input, select, textarea {
 
 	#footer {
 		padding: 4em 0 8em 0;
+		border-top-width: 5px;
+		border-top-style: solid;
+		border-top-color: #daa41e;
+		margin-left: 7em;
+		margin-right: 7em;
 	}
 
 		#footer a {
@@ -2819,9 +2826,11 @@ input, select, textarea {
 
 		#footer .copyright {
 			color: #999;
-			margin-top: 1.5em;
+			margin-top: 2em;
 			text-align: center;
 			font-size: 0.9em;
+			border-top-style: solid;
+			border-top-color: #daa41e;
 		}
 
 /* Wide */
